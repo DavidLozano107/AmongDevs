@@ -1,10 +1,13 @@
-import { bg } from "../selectors";
+import { bg, selectors } from "../selectors.js";
 
 export default class Ui {
-  constructor() {}
+  constructor() {
+    console.log(bg.style);
+  }
 
   changeBg(img) {
-    bg.src = "../../assets/";
+    selectors.remove();
+    bg.style.backgroundImage = "url(" + `assets/${img}` + ")";
   }
 
   backToBaseImg() {
