@@ -1,7 +1,7 @@
 .modalContainer {
   display: none;
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   padding-top: 100px;
   left: 0;
   top: 0;
@@ -13,11 +13,11 @@
 }
 
 .modalContainer .modal-content {
-  background-color: #fefefe;
+  background-color: #ffffff;
   margin: auto;
   padding: 20px;
   border: 1px solid lightgray;
-  border-top: 10px solid #58abb7;
+  border-top: 10px solid #000607;
   width: 60%;
 }
 
@@ -38,8 +38,6 @@
   position: absolute;
   top: 460px;
   left: 450px;
-  background-color: rgb(0, 255, 149);
   width: 150px;
   height: 200px;
-  opacity: 0.5;
 }

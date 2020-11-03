@@ -9,7 +9,6 @@ export default class AlingEngineOutput {
     if (document.querySelector(".divModal")) {
       var modal = document.getElementById("tvesModal");
       var divModal = document.getElementById("btnModal");
-      var span = document.getElementById("closeModal");
       var body = document.getElementsByTagName("body")[0];
 
       divModal.onclick = function () {
