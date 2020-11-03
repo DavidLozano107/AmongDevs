@@ -37,7 +37,9 @@
 .divModal {
   position: absolute;
   top: 460px;
+  background-color: rgba(94, 105, 200, 0.4);
   left: 450px;
   width: 150px;
   height: 200px;
+
 }
